@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .block {
@@ -8,7 +9,7 @@ body {
 }
 
 .block1 {
-    background-color: rgb(38, 44, 73);
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
     color: white;
@@ -42,10 +43,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .block2-content {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
 
 .card-placeholder {
@@ -57,12 +69,47 @@ body {
     border-style: solid;
 }
 
+.block3 {
+    background-color: gray;
+    padding: 125px 200px;
+}
+
+.block4 {
+    margin: 100px 150px;
+    background-color: #2f71ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 48px;
+    border-radius: 8px;
+    color: white;
+}
+
+.block5 {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px;
+    color: white;
+}
+
+#quote {
+    font-size: 32px;
+}
+
+#whom {
+    text-align: right;
+    font-size: 24px;
+    font-style: bold;
+}
+
 .block1 h1 {
     font-size: 24px;
 }
 
 .block1 h2 {
-    font-size: 56px;
+    font-size: 48px;
+    font-weight: bolder;
     margin: 0;
 }
 
@@ -70,8 +117,18 @@ body {
     font-size: 32px;
 }
 
+h3 {
+    margin: 0;
+}
+
 p {
     margin: 0;
+}
+
+.block4 button {
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
 }
 
 button {
@@ -82,6 +139,8 @@ button {
     padding: 8px 24px;
     margin: 8px 0px;
     border-radius: 5px;
+    height: 32px;
+    width: 125px;
 }
 
 ul {
